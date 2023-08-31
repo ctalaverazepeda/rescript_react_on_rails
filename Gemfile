@@ -30,3 +30,7 @@ gem "capybara", "3.39.2"
 gem "selenium-webdriver", "4.10.0"
 gem "webdrivers", "5.3.1"
 end
+
+gem "shakapacker", "= 7.0.3"
+
+gem "react_on_rails", "= 13.4.0"
