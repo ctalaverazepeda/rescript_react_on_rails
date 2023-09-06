@@ -32,3 +32,9 @@ Configuration Do not update the GemFile.
 :pushpin: run bundle
 :pushpin: run yarn install
 
+## Pictures
+![image](https://github.com/ctalaverazepeda/rescript_react_on_rails/assets/80922206/41d9aa15-6620-486b-8a53-8c953e9ff5fd)
+![image](https://github.com/ctalaverazepeda/rescript_react_on_rails/assets/80922206/a59dd9e6-4d61-45f0-ba9a-b67d31d92618)
+
+
+
