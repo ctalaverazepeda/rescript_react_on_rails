@@ -1,28 +1,31 @@
-# README
 
-* Ruby version: ruby 3.2.2
-* Node version: v18.16.0
-* yarn version: 3.6.1
-* rails version: 7.0.7.2
-* bundler version: 2.4.17
-* shakapacker version: 7.0.3
+# Data Center -> ReScript React on Rails App
 
-* System dependencies
+This application 1 page testing useState with input field and another page emulating a custom login form with 2 input fields.
 
-* Configuration
-Do not update the GemFile.
 
-* Database creation
-rails db:setup -> to init the db.
-rails db:migrate -> to migrate changes to db
-rails server-> to run on browser.
 
-* Database initialization
 
-* How to run the test suite
+## Versioning documentation
 
-* Services (job queues, cache servers, search engines, etc.)
+:pushpin: Ruby version: ruby 3.2.2
 
-* Deployment instructions
+:pushpin: Node version: v18.16.0
 
-* ...
+:pushpin: yarn version: 3.6.1
+
+:pushpin: rails version: 7.0.7.2
+
+:pushpin: bundler version: 2.4.17
+
+:pushpin: shakapacker version: 7.0.3
+
+## System dependencies
+
+Configuration Do not update the GemFile.
+
+## Database initialization
+:pushpin: rails db:setup rails db:migrate
+:pushpin: Update the Postgresql credentials.
+
+
