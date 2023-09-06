@@ -28,4 +28,7 @@ Configuration Do not update the GemFile.
 :pushpin: rails db:setup :pushpin: rails db:migrate
 :pushpin: Update the Postgresql credentials.
 
+## App initialization
+:pushpin: run bundle
+:pushpin: run yarn install
 
