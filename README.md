@@ -25,7 +25,7 @@ This application 1 page testing useState with input field and another page emula
 Configuration Do not update the GemFile.
 
 ## Database initialization
-:pushpin: rails db:setup rails db:migrate
+:pushpin: rails db:setup :pushpin: rails db:migrate
 :pushpin: Update the Postgresql credentials.
 
 
