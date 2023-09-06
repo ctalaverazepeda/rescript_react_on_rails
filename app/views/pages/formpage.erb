@@ -1,0 +1,11 @@
+<h1>Welcome to my form</h1>
+<h3>Please type your first name, last name and click on Log in</h3>
+<hr>
+<%=
+react_component(
+    "FormPageJournal", props: @formProps, prerender: false
+)
+%>
+<div>
+<%= link_to 'back to index page', "index" %>
+</div>

@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import style from './HelloWorld.module.css';
 
 const HelloWorld = (props) => {
-  const [name, setName] = useState(props.name);
+  const [name, setName] = useState(props.nameProp);
 
   return (
     <div>

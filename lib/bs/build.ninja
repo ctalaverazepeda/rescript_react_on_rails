@@ -1,0 +1,17 @@
+rescript = 1
+g_finger := /home/ubucharlie/Documents/datacenter-test/rescript_rails/rescript_react_on_rails/node_modules/@rescript/react/lib/ocaml/install.stamp
+rule astj
+  command = /home/ubucharlie/Documents/datacenter-test/rescript_rails/rescript_react_on_rails/node_modules/rescript/linux/bsc.exe  -bs-v 10.1.4 -bs-jsx 4 -bs-jsx-mode classic  -absname -bs-ast -o $out $i
+o app/javascript/bundles/FormPageRescript.ast : astj ../../app/javascript/bundles/FormPageRescript.res
+rule deps
+  command = /home/ubucharlie/Documents/datacenter-test/rescript_rails/rescript_react_on_rails/node_modules/rescript/linux/bsb_helper.exe -hash 14463ab8a8702a9cefe0f9c11a3b4020 $in
+  restat = 1
+o app/javascript/bundles/FormPageRescript.d : deps app/javascript/bundles/FormPageRescript.ast
+rule mij
+  command = /home/ubucharlie/Documents/datacenter-test/rescript_rails/rescript_react_on_rails/node_modules/rescript/linux/bsc.exe -I app/javascript/bundles/HelloWorld/components -I app/javascript/bundles/HelloWorld -I app/javascript/bundles -I app/javascript/packs -I app/javascript -I /home/ubucharlie/Documents/datacenter-test/rescript_rails/rescript_react_on_rails/node_modules/@rescript/react/lib/ocaml   -bs-package-name 'ReScript on Rails Tutorial' -bs-package-output es6:$in_d:.bs.js -bs-v $g_finger $i
+  dyndep = 1
+  restat = 1
+o app/javascript/bundles/FormPageRescript.cmj app/javascript/bundles/FormPageRescript.cmi ../../app/javascript/bundles/FormPageRescript.bs.js : mij app/javascript/bundles/FormPageRescript.ast
+o app/javascript/bundles/HelloWorldRescript.ast : astj ../../app/javascript/bundles/HelloWorldRescript.res
+o app/javascript/bundles/HelloWorldRescript.d : deps app/javascript/bundles/HelloWorldRescript.ast
+o app/javascript/bundles/HelloWorldRescript.cmj app/javascript/bundles/HelloWorldRescript.cmi ../../app/javascript/bundles/HelloWorldRescript.bs.js : mij app/javascript/bundles/HelloWorldRescript.ast

@@ -1,0 +1,28 @@
+#Start(1694042352536)
+
+  Warning number 27
+  /home/ubucharlie/Documents/datacenter-test/rescript_rails/rescript_react_on_rails/app/javascript/bundles/FormPageRescript.res:3:24-37
+
+  1 │ %%raw("import './FormPageRescript.css'")
+  2 │ @react.component
+  3 │ let formPageJournal = (~formFirstName : string, ~formLastName: string) =
+    │ > {
+  4 │ let (firstName, setFirstName) = React.useState(() => "");
+  5 │ let (lastName, setLastName) = React.useState(() => "");
+
+  unused variable formFirstName.
+
+
+  Warning number 27
+  /home/ubucharlie/Documents/datacenter-test/rescript_rails/rescript_react_on_rails/app/javascript/bundles/FormPageRescript.res:3:49-61
+
+  1 │ %%raw("import './FormPageRescript.css'")
+  2 │ @react.component
+  3 │ let formPageJournal = (~formFirstName : string, ~formLastName: string) =
+    │ > {
+  4 │ let (firstName, setFirstName) = React.useState(() => "");
+  5 │ let (lastName, setLastName) = React.useState(() => "");
+
+  unused variable formLastName.
+
+#Done(1694042352609)

@@ -1567,6 +1567,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@rescript/react@npm:^0.11.0":
+  version: 0.11.0
+  resolution: "@rescript/react@npm:0.11.0"
+  peerDependencies:
+    react: ">=18.0.0"
+    react-dom: ">=18.0.0"
+  checksum: c399d114f7081dca56b200c377dc4896f7c4e7ec092a73f6b42aadffd7b3b146a462009139e71c834db5989331777ffd57bbcef2adfb165104510aa5c60c9ada
+  languageName: node
+  linkType: hard
+
 "@sinclair/typebox@npm:^0.27.8":
   version: 0.27.8
   resolution: "@sinclair/typebox@npm:0.27.8"
@@ -5844,6 +5854,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"rescript@npm:^10.1.4":
+  version: 10.1.4
+  resolution: "rescript@npm:10.1.4"
+  bin:
+    bsc: bsc
+    bsrefmt: bsrefmt
+    bstracing: lib/bstracing
+    rescript: rescript
+  checksum: 5bd4b17a9671bc91f369ef56fbd03bba73b4a2cfeab9e09d92f8133f70b62028754914afede07f18d2c1dd877a38a14b2ff5a3b6b90783ea2306b29ff3de54f0
+  languageName: node
+  linkType: hard
+
 "rescript_react_on_rails@workspace:.":
   version: 0.0.0-use.local
   resolution: "rescript_react_on_rails@workspace:."
@@ -5854,6 +5876,7 @@ __metadata:
     "@babel/preset-react": ^7.22.5
     "@babel/runtime": 7
     "@pmmmwh/react-refresh-webpack-plugin": ^0.5.11
+    "@rescript/react": ^0.11.0
     "@types/babel__core": 7
     "@types/webpack": 5
     babel-loader: 8
@@ -5869,6 +5892,7 @@ __metadata:
     react-dom: ^18.2.0
     react-on-rails: 13.4.0
     react-refresh: ^0.14.0
+    rescript: ^10.1.4
     shakapacker: 7.0.3
     style-loader: ^3.3.3
     terser-webpack-plugin: 5

@@ -1,0 +1,14 @@
+rescript = 1
+rule cp
+  command = cp $i $out
+rule touch
+ command = touch $out
+o FormPageRescript.cmi : cp ../bs/app/javascript/bundles/FormPageRescript.cmi
+o FormPageRescript.cmj : cp ../bs/app/javascript/bundles/FormPageRescript.cmj
+o FormPageRescript.cmt : cp ../bs/app/javascript/bundles/FormPageRescript.cmt
+o FormPageRescript.res : cp ../../app/javascript/bundles/FormPageRescript.res
+o HelloWorldRescript.cmi : cp ../bs/app/javascript/bundles/HelloWorldRescript.cmi
+o HelloWorldRescript.cmj : cp ../bs/app/javascript/bundles/HelloWorldRescript.cmj
+o HelloWorldRescript.cmt : cp ../bs/app/javascript/bundles/HelloWorldRescript.cmt
+o HelloWorldRescript.res : cp ../../app/javascript/bundles/HelloWorldRescript.res
+build install.stamp : touch FormPageRescript.cmi FormPageRescript.cmj HelloWorldRescript.cmi HelloWorldRescript.cmj 

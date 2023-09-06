@@ -3,4 +3,7 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
    root "pages#hello_world"
+   get "formpage", to: "pages#formpage"
+   get "index", to: "pages#hello_world"
+
 end

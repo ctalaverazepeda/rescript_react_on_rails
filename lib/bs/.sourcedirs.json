@@ -1,0 +1,1 @@
+{ "dirs" : [ "app/javascript" , "app/javascript/packs" , "app/javascript/bundles" , "app/javascript/bundles/HelloWorld" , "app/javascript/bundles/HelloWorld/components" ] , "pkgs" : [ [ "@rescript/react" , "/home/ubucharlie/Documents/datacenter-test/rescript_rails/rescript_react_on_rails/node_modules/@rescript/react" ] ] , "generated" : [] }

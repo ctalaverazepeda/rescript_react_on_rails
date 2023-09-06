@@ -1,0 +1,18 @@
+{
+    "name": "ReScript on Rails Tutorial",
+    "sources":[
+        {
+            "dir": "app/javascript",
+            "subdirs": true
+        }
+    ],
+    "package-specs": [
+        {
+            "module": "es6",
+            "in-source": true
+        }
+    ],
+    "jsx": { "version": 4, "mode": "classic" },
+    "suffix": ".bs.js",
+    "bs-dependencies": ["@rescript/react"]
+}
